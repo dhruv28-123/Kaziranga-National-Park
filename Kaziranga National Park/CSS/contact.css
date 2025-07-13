@@ -1,0 +1,38 @@
+﻿body {
+}
+#contact-container {
+    display: flex;
+    margin: 20px;
+    font-family: Arial;
+}
+
+
+.contact-images {
+    margin-right: 20px;
+}
+
+    .contact-images img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+
+
+.contact-form h2 {
+    margin-bottom: 10px;
+}
+
+.contact-form p {
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"] {
+    width: 200px;
+    padding: 4px;
+    font-size: 14px;
+}

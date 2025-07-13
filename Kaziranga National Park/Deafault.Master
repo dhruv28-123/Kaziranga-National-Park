@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Deafault.master.cs" Inherits="Kaziranga_National_Park.Deafault" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="CSS/Default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+   <div id="header">
+            <div id="left-heading">Kaziranga National Park</div>
+       <div id="nav">
+         <nav>
+             <a href="Home.aspx">Home</a>
+             <a href="about.aspx">About Us</a>
+             <a href="Safaries.aspx">Safaries</a>
+             <a href="Resorts.aspx">Resorts</a>
+             <a href="contacts.aspx">Contact Us</a>
+         </nav>
+          </div>
+     
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+    <div>               
+    <footer id="main-footer">
+  <div class="footer-content">
+
+    <!-- Left Column -->
+    <div class="footer-left">
+      <h3>Kaziranga National Park</h3>
+      <p>Located in Assam, India — UNESCO World Heritage Site known for the one-horned rhinoceros.</p>
+    </div>
+
+    <!-- Quick Links Column -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="Home.aspx">Home</a></li>
+        <li><a href="about.aspx">About us</a></li>
+        <li><a href="Safaries.aspx">Safaries</a></li>
+        <li><a href="Resorts.aspx">Resorts</a></li>
+        <li><a href="contacts.aspx">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Column -->
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p>Email: info@kaziranga.org</p>
+      <p>Phone: +91-1234567890</p>
+    </div>
+
+  </div>
+
+  <!-- Bottom Copyright -->
+  <div class="footer-bottom">
+    <p>&copy; 2025 Kaziranga National Park. All rights reserved.</p>
+  </div>
+</footer>
+</div>
+   
+</body>
+</html>

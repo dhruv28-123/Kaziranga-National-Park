@@ -1,0 +1,47 @@
+﻿body {
+}
+#resort-container {
+    width: 900px;
+    margin: 20px auto;
+    font-family: Arial;
+}
+
+/* Each resort box is a row: image left, text right */
+.resort-box {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Resort image on the left */
+.resort-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+/* Text on the right */
+.resort-text {
+    flex: 1; /* take remaining space */
+}
+
+    .resort-text h3 {
+        color: darkgreen;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .resort-text p {
+        font-size: 14px;
+        color: #333;
+        line-height: 1.6;
+    }
+.resort-heading {
+    color: green;
+    margin-bottom: 20px;
+    text-align: center;
+}

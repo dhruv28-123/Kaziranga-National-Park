@@ -1,0 +1,51 @@
+﻿body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+#rhino-section img {
+    width: 100%;
+    height: 570px;
+    object-fit: cover;
+}
+#image-container {
+    width: 100%;
+    overflow: hidden; /* Clear floats */
+    padding: 20px;
+    background-image: url('../Images/image2.jpg');
+    background-size: cover; /* Makes the image cover the entire container */
+    background-position: center; /* Keeps image centered */
+    background-repeat: no-repeat; /* Prevents tiling */
+    padding: 20px;
+    overflow: hidden;
+}
+
+.animal-box {
+    float: left;
+    width: 100px; /* Enough space for 70x70 image + text */
+    margin: 60px;
+    text-align: center;
+}
+
+    .animal-box img {
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    .animal-box:hover {
+        background-color: firebrick; /* light gray on hover */
+        cursor: pointer;
+    }
+    .animal-box img:hover {
+        transform: scale(1.5);
+    }
+    .animal-box img {
+        transition: transform 0.3s ease;
+    }
+    .animal-box a {
+        color: blue; /* Traditional link color */
+        text-decoration: underline; /* Underline always */
+    }
+animal-box a:hover {
+    color: darkblue; /* Slightly darker on hover */
+}

@@ -1,0 +1,49 @@
+﻿body {
+}
+#safari-container {
+    width: 100%;
+    overflow: hidden;
+    margin: 20px auto;
+    font-family: Arial;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Left section for text */
+.safari-text {
+    width: 60%;
+    float: left;
+    padding: 10px;
+    background-color: white;
+}
+
+/* Right section for images */
+.safari-images {
+    width: 35%;
+    float: right;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+    /* Image style */
+    .safari-images img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+/* Headings */
+.safari-text h2 {
+    color: green;
+}
+
+.safari-text h3 {
+    color: darkgreen;
+}
+
+.safari-text p {
+    font-size: 14px;
+    color: #333;
+    text-align: justify;
+}
